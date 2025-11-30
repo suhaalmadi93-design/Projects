@@ -23,10 +23,26 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: center;
     
     color: var(--colorwhite);
     background-color: rgba(0, 0, 0, 0.861);
     padding: 10px;
+}
+.top {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span a {
+    font-size: larger;
+    padding: 10px;
+    
+}
+span a:hover {
+    background-color: rgb(177, 135, 142);
+    border-radius: 50%;
 
 }
 #projects {
@@ -141,4 +157,5 @@ h2 {
     50% { box-shadow: 0 0 40px 25px yellow; }
     100% { box-shadow: 0 0 20px 10px yellow; }
 }
+
 }
